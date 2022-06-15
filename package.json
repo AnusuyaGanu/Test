@@ -1,0 +1,9 @@
+{
+  "name": "sampleproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "4-names.js",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}

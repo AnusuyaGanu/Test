@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+    let add = {
+        num : 0,
+        calc : function() {
+  
+        // logs the add object
+        document.write(this + ' ') //object
+  
+        function innerfunc() {
+            this.num += 1;
+  
+        // logs the window object
+        document.write(this + ' '); //window
+  
+        return this.num
+  
+    } return innerfunc();
+     }
+};
+  
+// logs NaN
+document.write(add.calc() + '<br>'); 
+  
+// logs NaN
+document.write(add.calc());
+</script>                 
+</body>
+</html>                     
